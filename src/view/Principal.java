@@ -18,12 +18,12 @@ public class Principal
 		//String processLer = "TASKLIST /FO TABLE";
 		//pCont.readProcess(processLer);
 		
-		//pega o ping do servidor do uol
+		//pega o ping do servidor do google
 		String process = "ping -4 -n 10 www.google.com.br";
 		pCont.readProcess(process);
 		
-		//Rota dos ips dos servidores da maquina local ate o do uol
-		//String process = "tracert www.uol.com.br";
+		//Rota dos ips dos servidores da maquina local ate o do google
+		//String process = "tracert www.google.com.br";
 		//pCont.readProcess(process);
 		
 		//String param = "notepad.exe";
